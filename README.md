@@ -1,8 +1,8 @@
 
-Student Management System (Python + MySQL)
+#Student Management System (Python + MySQL)
 This is a simple console-based Student Management System built using Python and MySQL. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on student records through a terminal-based menu.
 
- Features
+ #Features
  Connects to a MySQL database
 
  Creates a stud_info table if it doesn't exist
@@ -17,13 +17,13 @@ Update a student's city using their ID
 
  Easy-to-use terminal interface
 
-Technologies Used
+#Technologies Used
 Python 3.x
 MySQL
 
 mysql-connector-python for database connectivity
 
-Getting Started
+#Getting Started
 Clone the repository:
 git clone https://github.com/yourusername/student-management-system.git
 cd student-management-system
@@ -43,7 +43,7 @@ Run the program:
 
 python Student\ management\ system.py
 
-Sample Output
+#Sample Output
 1. Insert Records
 2. Display Records
 3. Update Records
