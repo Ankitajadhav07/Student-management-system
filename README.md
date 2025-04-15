@@ -1,61 +1,59 @@
 
-#Student Management System (Python + MySQL)
-This is a simple console-based Student Management System built using Python and MySQL. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on student records through a terminal-based menu.
 
- #Features
- Connects to a MySQL database
+##  Student Management System (Python + MySQL)
 
- Creates a stud_info table if it doesn't exist
+This is a simple **console-based Student Management System** built using **Python** and **MySQL**. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on student records through a terminal-based menu.
 
-Insert new student records
+###  Features
 
-Display all student records
+-  Connects to a MySQL database
+-  Creates a `stud_info` table if it doesn't exist
+-  Insert new student records
+-  Display all student records
+-  Update a student's city using their ID
+-  Delete a student record by ID
+-  Easy-to-use terminal interface
 
-Update a student's city using their ID
+###  Technologies Used
+- Python 3.x
+- MySQL
+- `mysql-connector-python` for database connectivity
 
- Delete a student record by ID
+###  Getting Started
 
- Easy-to-use terminal interface
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/student-management-system.git
+   cd student-management-system
+   ```
 
-#Technologies Used
-Python 3.x
-MySQL
+2. **Install dependencies:**
+   ```bash
+   pip install mysql-connector-python
+   ```
 
-mysql-connector-python for database connectivity
+3. **Setup your MySQL database:**
+   - Create a database named `python_1234`
+   - Make sure your MySQL server is running
+   - Update your MySQL credentials in the script if needed
 
-#Getting Started
-Clone the repository:
-git clone https://github.com/yourusername/student-management-system.git
-cd student-management-system
-Install dependencies:
+4. **Run the program:**
+   ```bash
+   python Student\ management\ system.py
+   ```
 
-
-pip install mysql-connector-python
-Setup your MySQL database:
-
-Create a database named python_1234
-
-Make sure your MySQL server is running
-
-Update your MySQL credentials in the script if needed
-
-Run the program:
-
-python Student\ management\ system.py
-
-#Sample Output
+### 📷 Sample Output
+```
 1. Insert Records
 2. Display Records
 3. Update Records
 4. Delete Records
 5. Exit
+```
 
+###  To-Do / Future Improvements
+- Add input validation
+- Use object-oriented approach
+- GUI version with Tkinter or PyQt
+- Export data to CSV
 
-📌 To-Do / Future Improvements
-Add input validation
-
-Use object-oriented approach
-
-GUI version with Tkinter or PyQt
-
-Export data to CSV
